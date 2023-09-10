@@ -1,0 +1,108 @@
+body{
+    margin: 0em;
+    padding: 0em;
+}
+header nav ul{
+    float: right;
+    position: relative;
+    padding-top: 1em;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 3.5em;
+    padding-right: 2em;
+}
+header nav img{
+    width: 5em;
+}
+header nav{
+    background-color:orange;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 4em;
+}
+header nav ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#my01 img{
+    position: relative;
+    float: right;
+    width: 35em;
+    margin-bottom: 3em;
+}
+#my01{
+    margin-top: 1.2em;
+    margin-right: 2em;
+    padding-bottom: 1.3em;
+}
+#mylandingtext h1{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+    position:absolute;
+    margin-left: 3em;
+}
+#my02{
+    position: relative;
+    clear: both;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+#my02 img{
+    width: 25em;
+    float: left;
+    margin-top: 3em;
+}
+school{
+    float: right;
+}
+#school h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3em;
+
+}
+.entirecontainer{
+    clear: both;
+    padding-top: 2em;
+}
+.griditems h1{
+    font-size: 1.5rem;
+    border-bottom: 5px solid orange;
+    text-align: center;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.griditems{
+    margin: auto;
+}
+.entirecontainer h1{
+    text-align: center;
+
+}
+.footergriditems ul li{
+    list-style: none;
+}
+.footergridcon{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.footergriditems{
+    margin: auto;
+}
+.footergriditems img{
+width: 6em;
+}
+.footergriditems ul li a{
+ font-size: 1.3rem; 
+ text-decoration: none; 
+}
+footer{
+    padding-top: 1.5em;
+    padding bottom: 1em;
+}
